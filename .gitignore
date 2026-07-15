@@ -1,0 +1,11 @@
+# Dependencies — never commit
+node_modules/
+
+# Vite cache / logs
+.vite/
+*.log
+npm-debug.log*
+
+# NOTE: dist/ is intentionally NOT ignored.
+# Praxsuite's git-clone deploy serves the committed build output (Output folder = "dist"),
+# so the built dist/ must be committed to this repo.
