@@ -1,0 +1,7 @@
+{
+  "tables": [
+    { "key": "ITEMS", "label": "Items" }
+  ],
+  "automations": [],
+  "webhooks": []
+}
